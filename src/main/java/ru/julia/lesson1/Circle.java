@@ -1,6 +1,6 @@
-package ru.julia;
+package ru.julia.lesson1;
 
-public class Circle implements Figure{
+public class Circle implements Figure {
     @Override
     public String square() {
         return "S=πR²";

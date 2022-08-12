@@ -1,6 +1,8 @@
-package ru.julia;
+package ru.julia.lesson1;
 
-public class Triangle implements Figure{
+import ru.julia.lesson1.Figure;
+
+public class Triangle implements Figure {
 
     @Override
     public String square() {

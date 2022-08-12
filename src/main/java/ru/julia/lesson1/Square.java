@@ -1,6 +1,8 @@
-package ru.julia;
+package ru.julia.lesson1;
 
-public class Square implements Figure{
+import ru.julia.lesson1.Figure;
+
+public class Square implements Figure {
     @Override
     public String square() {
         return "S=a²";
