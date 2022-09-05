@@ -3,7 +3,7 @@ package ru.julia.lesson7;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "students")
+@Table(name = "students2")
 public class Student {
     @Id
     @GeneratedValue

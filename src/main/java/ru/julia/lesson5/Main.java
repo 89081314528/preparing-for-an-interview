@@ -10,7 +10,7 @@ public class Main {
         studentDao.update(julia2);
         studentDao.delete(julia2);
         System.out.println(studentDao.findAll());
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10; i++) {
             studentDao.save(julia);
         }
     }
